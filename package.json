@@ -1,0 +1,18 @@
+{
+  "name": "cpta",
+  "main": "public/index.html",
+  "version": "0.1.1",
+  "author": {
+    "name": "pjdf974",
+    "email": "p0k3pypr0g@gmail.com"
+  },
+  "window": {
+    "width": 1270,
+    "height": 780
+  },
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "pfcpta": "^0.2.4",
+    "pfesp": "0.0.5"
+  }
+}

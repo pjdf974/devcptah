@@ -1,0 +1,10 @@
+{"c":"A","l":"Assurances","_id":"GK04u8iEqAfTWTIa"}
+{"c":"B","l":"Je ne saiis pas","_id":"I3bRty884xmnYsyg"}
+{"c":"D","l":"Divers","_id":"POmzIqpBQ133SwdY"}
+{"c":"a","l":"sdgfsd gsdf g fg fdsg fds","_id":"SoXOkJl3EVPaLNBd"}
+{"c":"F","l":"Fournitures","_id":"TEd3I5ypj09ilYEM"}
+{"c":"N","l":"Informatique","_id":"fJHqLSzWOaskhLwc"}
+{"c":"H","l":"honoraires","_id":"iFHjoJWLVXwnlEox"}
+{"c":"V","l":"Remboursement avances","_id":"vver7NC69HvYAAL1"}
+{"c":"R","l":"voyages","_id":"wen29gKzWw2lpQ40"}
+{"$$indexCreated":{"fieldName":"c","unique":true,"sparse":false}}

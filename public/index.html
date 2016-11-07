@@ -1,0 +1,203 @@
+<!doctype <html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Brouillard comptable</title>
+        <link rel="stylesheet" href="css/tableau.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+
+        <!----------------------------------------  Saisie de l'écriture---------------------->
+        <section class="inputs">
+            <div class="table">
+                <div class="row">
+                    <div class="cell">
+                        <label for="num">Numéro</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="num" size="5" maxlength="5" disabled/>
+                        <input type="text" id="num2" size="5" maxlength="5" hidden/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="dat">Date</label>
+                    </div>
+                    <div class="cell">
+                        <input type="date" id="dat"/>
+                        <input type="date" id="dat2" hidden/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="typ">Type</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="typ" size="5" maxlength="5"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="slt_cod">Code</label>
+                    </div>
+                    <div class="cell">
+                        <select id="slt_cod"></select>
+                        <input type="button" id="bcod" value="+"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="lb1">Libellé 1</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="lb1" size="27" maxlength="25" list="list_lb1"/>
+                        <input type="button" id="blb1" value="+"/>
+                    </div>
+                    <datalist id="list_lb1"></datalist>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label for="lb2">Libellé 2</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="lb2" size="27" maxlength="25" list="list_lb2"/>
+                        <input type="button" id="blb2" value="+"/>
+                    </div>
+                    <datalist id="list_lb2"></datalist>
+                </div>
+                 <div class="row">
+                    <div class="cell">
+                        <label for="rec">Recette</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="rec" size="14" maxlength="14"/>
+                        <input type="text" id="rec2" size="14" maxlength="14" hidden/>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="cell">
+                        <label for="tDep">Dépense</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="dep" size="14" maxlength="14"/>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="cell">
+                        <label for="tva">TVA</label>
+                    </div>
+                    <div class="cell">
+                        <input type="text" id="tva" size="13" maxlength="13"/>
+                        <label for="ht">Montant HorsTaxe</label>
+                        <input type="text" id="ht" size="14" maxlength="14" disabled/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------fin saisie écriture------------------------->
+
+
+        <!----------------------commandes------------------------------------>
+        <section class="commandes">
+            <input type="button" value="Enregistrer" id="bsave"/>
+            <input type="button" value="Rechercher" id="bfind"/>
+            <input type="button" value="Ajouter des critères" id="badd"/>
+            <input type="button" value="Vider les champs" id="bclear"/>
+            <input type="button" value="Imprimer" id="bprint"/>
+            <input type="button" value="RESET" id="breset"/>
+        </section>
+        <!----------------------fin commandes-------------------------------->
+
+
+        <!------------------saisie des codes---------------------------->
+        <section class="gescodes" hidden>
+            <div>
+                <label for="cod">Code</label>
+                <input type="text" id="cod" size="1" maxlength="1"/>
+                <label for="codlib">Libellé</label>
+                <input type="text" id="codlib" size="25" maxlength="25"/>  
+                <input type="text" id="codid" hidden>
+            </div>
+            <select id="slt_cod2" size="11">
+            </select>
+            <div class="comm">
+                <input type="button" id="bcodsave" value="Enregistrer"/>
+                <input type="button" id="bcodfind" value="Rechercher"/>
+                <input type="button" id="bcodclear" value="Vider les champs"/>
+            </div>
+        </section>
+        <!------------------fin saisie des codes---------------------->
+
+
+
+
+        <!------------------saisie des libellés 1---------------------------->
+        <section class="geslib1" hidden>
+            <div>
+                <label for="gesnlb1">N°</label>
+                <input type="text" id="gesnlb1" size="3" maxlength="3" disabled/>
+                <label for="geslb1">Libellé 1</label>
+                <input type="text" id="geslb1" size="25" maxlength="25"/> 
+            </div>
+            <select id="slt_lb12" size="11"></select>
+            <div class="comm">
+                <input type="button" id="blb1save" value="Enregistrer"/>
+                <input type="button" id="blb1find" value="Rechercher"/>
+                <input type="button" id="blb1clear" value="Vider les champs"/>
+            </div>
+        </section>
+        <!------------------fin saisie des libellé 1---------------------->
+
+        <!------------------saisie des libellés 2---------------------------->
+        <section class="geslib2" hidden>
+            <div>
+                <label for="gesnlb2">N°</label>
+                <input type="text" id="gesnlb2" size="3" maxlength="3" disabled/>
+                <label for="geslb2">Libellé 2</label>
+                <input type="text" id="geslb2" size="25" maxlength="25"/>
+            </div>
+            <select id="slt_lb22" size="11">
+            </select>
+            <div class="comm">
+                <input type="button" id="blb2save" value="Enregistrer"/>
+                <input type="button" id="blb2find" value="Rechercher"/>
+                <input type="button" id="blb2clear" value="Vider les champs"/>
+            </div>
+        </section>
+        <!------------------fin saisie des libellé 1---------------------->
+
+
+
+        <!-------------------liste des écritures------------------------ -->
+        <section class="display">
+            <div>
+                <input type="button" class="titrescol" value="NUM." id="tnum"/>
+                <input type="button" class="titrescol" value="DATES" id="tdat"/>
+                <input type="button" class="titrescol" value="TYPES" id="ttyp"/>
+                <input type="button" class="titrescol" value="C" id="tcod"/>
+                <input type="button" value="LIBELLES 1" id="tlb1"/>
+                <input type="button" value="LIBELLES 2" id="tlb2"/>
+                <input type="button" value="RECETTES HT" id="trec"/>
+                <input type="button" value="DEPENSES HT" id="tdep"/>
+                <input type="button" value="TVA" id="ttva"/>
+                <input type="button" value="MONTANT TTC" id="tttc"/>
+            </div>
+            <select id="slt_ecr" size="25"></select>
+            <div>
+                <input type="button" id="stlib"/>
+                <input type="button" id="strec"/>
+                <input type="button" id="stdep"/>
+                <input type="button" id="sttva"/>
+                <input type="button" id="stttc"/>
+            </div>
+        </section>
+        <!-------------------fin liste des écritures-------------------- -->
+
+
+        <script src="js/variables.js"></script>
+        <script src="js/fonctions.js"></script>
+        <script src="js/index.js"></script>
+ 
+    </body>
+</html>

@@ -1,0 +1,2 @@
+{"$$indexCreated":{"fieldName":"n","unique":true,"sparse":false}}
+{"d":"2016-11-01","t":"TELE","c":"D","a":"TEST 1","b":"test 2","m":-452125,"v":45220,"n":1,"_id":"cNQ8uSDhkz2lqwtL"}

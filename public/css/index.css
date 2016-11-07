@@ -1,0 +1,140 @@
+:root{
+    --fontSize:  15px;
+    --fontSize1: 14px;
+    --fontSize0: 12px;
+}
+.inputs{
+    display: bloc;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 510px;
+    border: 1px solid black;
+    font-family: "Courier new";
+    font-size: var(--fontSize);
+    background-color: palegoldenrod;
+}
+.inputs input, .inputs select{
+    font-family: "Courier new";
+    font-size: var(--fontSize);
+    font-weight: bold;
+}
+
+.commandes{
+    display: bloc;
+    position: absolute;
+    left: 520px;
+    top: 2px;
+    width: 152px;
+    border: 1px solid black;
+}
+.commandes input{
+    width: 148px;
+    margin: 2px;
+}
+.commandes input:hover{
+    font-weight: bold;
+    background-color: cornsilk;
+    cursor: pointer;
+}
+
+.gescodes, .geslib1, .geslib2{
+    display: bloc;
+    position: absolute;
+    left: 680px;
+    top: 2px;
+    width: 450px;
+    border: 1px solid black;
+    padding: 2px;
+    font-family: "Courier new";
+    font-size: var(--fontSize);
+    background-color: tan;
+}
+.gescodes input, .geslib1 input, .geslib2 input, .gescodes select, .geslib1 select, .geslib2 select{
+    font-family: "Courier new";
+    font-size: var(--fontSize);
+}
+.gescodes div, .geslib1 div, .geslib2 div{
+    padding: 2px;
+}
+.geslib1 label, .geslib2 label{
+    font-weight: bold;
+    font-size: 17px;
+}
+.comm{
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 290px;
+    width: 154px;
+    border: 1px solid bisque;
+}
+.comm input{
+    margin: 2px;
+}
+.comm input:hover{
+    font-weight: bold;
+    background-color: cornsilk;
+    cursor: pointer;
+}
+#bcodsave, #bcodclear, #bcodfind, #blb1save, #blb1clear, #blb1find, #blb2save, #blb2clear, #blb2find{
+    font-family: "Courier new";
+    font-size: var(--fontSize0);
+    width: 150px;
+}
+
+
+.display{
+    display: bloc;
+    position: absolute;
+    left: 2px;
+    top: 255px;
+    width: 1260px;
+    border: 1px solid black;
+    padding: 2px;
+}
+.display select, .display input{
+    font-family: "Courier new";
+    font-size: var(--fontSize1);
+}
+.display select{
+    background-color: peachpuff;
+}
+.display input:hover{
+    font-weight: bold;
+    background-color: azure;
+    cursor: pointer;
+    font-size: var(--fontSize1);
+}
+
+#rec, #dep, #tva, #ht, #rec2{
+    text-align: right;
+}
+#slt_cod{
+    font-size: var(--fontSize0);
+}
+
+#tnum, #ttyp{
+    width: 54px;
+}
+#tdat{
+    width: 104px;
+}
+#tcod{
+    width: 28px;
+}
+#tlb1, #tlb2{
+    width: 222px;
+}
+#trec, #tdep, #tttc, #strec, #stdep, #stttc{
+    width: 130px;
+    text-align: right;
+}
+#ttva, #sttva{
+    width: 120px;
+    text-align: right;
+}
+#stlib{
+    width: 705px;
+    text-align: left;
+}

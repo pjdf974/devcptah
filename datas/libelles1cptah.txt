@@ -1,0 +1,4 @@
+{"n":3,"l":"erterzterterzterterzterzt","_id":"eFdteTOmIg2xjKiB"}
+{"n":1,"l":"BURO STOCK","_id":"fjZWusD58A8Jrp1I"}
+{"n":2,"l":"STIB","_id":"mxaWSFkwTiM6jSYU"}
+{"$$indexCreated":{"fieldName":"n","unique":true,"sparse":false}}
