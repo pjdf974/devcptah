@@ -86,10 +86,11 @@ var
     esp       = require("pfesp"),
     critere   = { sort: {n:1}, find : {} },
     db        = {},
-    database  = "C:/Users/p.fontaine/Desktop/databases/dbcptah.txt";  // base de données de travail - copie du 03/11/2016 de la base réelle située sur m://
+    database  = "C:/Users/p.fontaine/Desktop/databases/dbcptah.txt",  // base de données de travail - copie du 03/11/2016 de la base réelle située sur m://
+    dbtest    = "C:/Users/p.fontaine/Desktop/nw_0174/allscripts/devcptah/datas/ecriturescptah.txt"; // base de test
     
     // initialisation
-db.ecr = new Nedb({filename:process.cwd()+"/datas/ecriturescptah.txt", autoload:true});  // base de données de test
+db.ecr = new Nedb({filename:dbtest, autoload:true});  
 db.cod = new Nedb({filename:process.cwd()+"/datas/codescptah.txt", autoload:true});
 db.lb1 = new Nedb({filename:process.cwd()+"/datas/libelles1cptah.txt", autoload:true});
 db.lb2 = new Nedb({filename:process.cwd()+"/datas/libelles2cptah.txt", autoload:true});

@@ -1,7 +1,8 @@
 {
   "name": "cpta",
   "main": "public/index.html",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "lastModif": "08/11/2016",
   "author": {
     "name": "pjdf974",
     "email": "p0k3pypr0g@gmail.com"
@@ -14,5 +15,12 @@
     "nedb": "^1.8.0",
     "pfcpta": "^0.2.4",
     "pfesp": "0.0.5"
+  },
+  "engines": {
+    "nwjs": "0.174"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjdf974/devcptah.git"
   }
 }

@@ -1,8 +1,16 @@
 # devcptah
 Brouillard d'écritures compta office mandataire judiciaire
 
-#Auteur 
+# Auteur 
 pjdf974
 
-#version
-0.1.0 
+# Version
+0.1.0
+
+# Utilisation
+Si necessaire : 
+    Installer nwjs 
+    Mofifier dbtest / database dans le fichier public/js/variables.js
+Lancer l'application :
+    nw devcptah
+
