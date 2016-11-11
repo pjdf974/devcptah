@@ -8,3 +8,5 @@
 {"c":"V","l":"Remboursement avances","_id":"vver7NC69HvYAAL1"}
 {"c":"R","l":"voyages","_id":"wen29gKzWw2lpQ40"}
 {"$$indexCreated":{"fieldName":"c","unique":true,"sparse":false}}
+{"c":"B","l":"A saisir","_id":"I3bRty884xmnYsyg"}
+{"c":"b","l":"Autre codes","_id":"SoXOkJl3EVPaLNBd"}

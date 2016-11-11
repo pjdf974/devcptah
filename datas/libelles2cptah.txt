@@ -3,3 +3,4 @@
 {"n":4,"l":"Cotisations sur salaires","_id":"Y6WCs277kvoUxZ0W"}
 {"n":2,"l":"Mandat 99999 --","_id":"pLgd3rNIthcCPO2K"}
 {"$$indexCreated":{"fieldName":"n","unique":true,"sparse":false}}
+{"n":3,"l":"Loyer 99/9999","_id":"5lRYFtiPnbh8lgNa"}

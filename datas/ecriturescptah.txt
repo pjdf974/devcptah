@@ -1,3 +1,4 @@
+{"d":"2016-11-01","t":"1254","c":"R","a":"AIR FRANCE","b":"Fact.451478","m":-98525,"v":4200,"n":2,"_id":"EIcjiEMRfJxHm5Y6"}
 {"d":"2016-11-01","t":"TELE","c":"D","a":"TEST 1","b":"test 2","m":-452125,"v":45220,"n":1,"_id":"cNQ8uSDhkz2lqwtL"}
 {"$$indexCreated":{"fieldName":"n","unique":true,"sparse":false}}
-{"d":"2016-11-01","t":"1254","c":"R","a":"AIR FRANCE","b":"Fact.451478","m":-98525,"v":4200,"n":2,"_id":"EIcjiEMRfJxHm5Y6"}
+{"d":"2016-11-02","t":"1254","c":"D","a":"VEOLIA","b":"Fact.45214","m":-15425,"v":1200,"n":3,"_id":"Dff4nQfNaylz1gdt"}
