@@ -1,12 +1,20 @@
+{"c":"0","l":"Ecritures annulées","_id":"0Hr43UxU45DYX2fj"}
+{"c":"C","l":"Comptabilité","_id":"1CIBB7wPeOU5Dnna"}
+{"c":"I","l":"Impôts","_id":"5AvHKFK0vZXV08a4"}
+{"c":"S","l":"Salaires et cotisations","_id":"AVRvzVn8CyyU0K43"}
+{"c":"K","l":"Eeau et Electricité","_id":"CD00GQ4iGJ5zuwMV"}
 {"c":"A","l":"Assurances","_id":"GK04u8iEqAfTWTIa"}
-{"c":"B","l":"Je ne saiis pas","_id":"I3bRty884xmnYsyg"}
-{"c":"D","l":"Divers","_id":"POmzIqpBQ133SwdY"}
-{"c":"a","l":"sdgfsd gsdf g fg fdsg fds","_id":"SoXOkJl3EVPaLNBd"}
-{"c":"F","l":"Fournitures","_id":"TEd3I5ypj09ilYEM"}
-{"c":"N","l":"Informatique","_id":"fJHqLSzWOaskhLwc"}
-{"c":"H","l":"honoraires","_id":"iFHjoJWLVXwnlEox"}
-{"c":"V","l":"Remboursement avances","_id":"vver7NC69HvYAAL1"}
-{"c":"R","l":"voyages","_id":"wen29gKzWw2lpQ40"}
-{"$$indexCreated":{"fieldName":"c","unique":true,"sparse":false}}
 {"c":"B","l":"A saisir","_id":"I3bRty884xmnYsyg"}
-{"c":"b","l":"Autre codes","_id":"SoXOkJl3EVPaLNBd"}
+{"c":"D","l":"Divers","_id":"POmzIqpBQ133SwdY"}
+{"c":"X","l":"Frais postaux","_id":"Pi1uCYHw6887aDPb"}
+{"c":"Q","l":"Nettoyage et frais liés","_id":"SoXOkJl3EVPaLNBd"}
+{"c":"F","l":"Fournitures","_id":"TEd3I5ypj09ilYEM"}
+{"c":"8","l":"FFDI","_id":"bKoUsnoSFWqzeHD9"}
+{"c":"E","l":"Equipements","_id":"bZd40YEzFMVTFpIY"}
+{"c":"N","l":"Informatique","_id":"fJHqLSzWOaskhLwc"}
+{"c":"L","l":"Loyers","_id":"gZki4b45rcbd1KId"}
+{"c":"H","l":"honoraires","_id":"iFHjoJWLVXwnlEox"}
+{"c":"Y","l":"Téléphonie","_id":"iHpK30zPqHi7sLGe"}
+{"c":"V","l":"Avances et remboursements","_id":"vver7NC69HvYAAL1"}
+{"c":"R","l":"Déplacements/Hébergements","_id":"wen29gKzWw2lpQ40"}
+{"$$indexCreated":{"fieldName":"c","unique":true,"sparse":false}}
